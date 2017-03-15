@@ -54,8 +54,10 @@ tr:nth-child(even) > td:nth-child(even) {
 }
 
 td > ul > li {
+	list-style:none;
 	text-align: left;
 	margin-right: 15px;
+	margin-bottom: 15px;
 }
 h4 {
 	margin-right: 20px;
@@ -63,10 +65,11 @@ h4 {
 	text-align:right;
 }
 
-li {
+.header ul li {
 	list-style:none;
 	margin-bottom: 15px;
-	text-decoration: none;
+	display: inline;
+	padding: 10px;
 }
 
 body {
